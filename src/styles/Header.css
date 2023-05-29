@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+.header{
+    background-color: rgb(239, 249, 255);
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header .centerPart{
+    display: flex;
+    margin-left: 50%;
+    gap: 4rem;
+    align-items: center;
+}
+.header .centerPart h3{
+    color: rgb(50, 95, 173);
+    font-family: 'Roboto', sans-serif;
+}
+.header .centerPart img{
+    height: 5rem;
+}
+.header .rightPart{
+    margin-right: 5%;
+    color: rgb(50, 95, 173);
+    font-family: 'Roboto', sans-serif;
+}
